@@ -1,5 +1,5 @@
 //Listen for submit 
-document.querySelector('#loan-form').addEventListener('submit', function (e) {
+document.querySelector('#loan-form').addEventListener('submit', (e) => {
     //Hide results
     document.querySelector('#results').style.display = 'none';
 
